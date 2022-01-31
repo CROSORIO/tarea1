@@ -1,0 +1,4 @@
+# tarea1
+LO222124
+CRISTIAN ALEXIS LOPEZ OSORIO
+Programación Orientada a Objetos PRO441 G01L
