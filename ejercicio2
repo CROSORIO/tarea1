@@ -1,0 +1,16 @@
+package guia1lo222124;
+import java.util.Scanner;
+public class Ejercicio2 {
+	public static void main(String[] args) {
+		 float celcius;
+		 double Fahrenheit;
+		 	System.out.println("CONVIERTE DE Celsius a Fahrenheit ");
+		 System.out.print("Ingresar celcius (C): ");
+		 	Scanner scanner = new Scanner(System.in);
+		 
+		 	celcius = scanner.nextFloat();
+		 Fahrenheit = celcius*1.8 + 32;
+				 
+		System.out.println("=> " + Fahrenheit + " Fahrenheit");
+	}
+}
