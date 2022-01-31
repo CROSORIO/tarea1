@@ -1,0 +1,32 @@
+package guia1lo222124;
+import java.util.Scanner;
+public class Ejercicio3 {
+	 public static void main(String[] args) {
+
+		 int n1;
+		 int n2;
+		 int n3;
+		 int total;
+		 int bloque = 3;
+		 
+		 Scanner reader = new Scanner(System.in); {
+		 System.out.println("Calcula el promedio de 3 numeros ");
+		 
+		 System.out.print("Ingrese nota 1 : ");
+		 n1 =Integer.parseInt(reader.nextLine());
+
+				  			 
+		 System.out.print("Ingrese nota 2: ");
+		 	n2 = Integer.parseInt(reader.nextLine());
+		 	
+		 System.out.print("Ingrese nota 3: ");
+		 	n3 = Integer.parseInt(reader.nextLine());
+		 
+
+		 total = ((n1+n2+n3 )/3);
+		 
+		 System.out.println("El promedio es de  "+ total); 
+
+		 	}
+	 	}
+	}
