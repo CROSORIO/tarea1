@@ -1,0 +1,20 @@
+package guia1lo222124;
+
+import java.util.Scanner;
+
+public class Ejercicio1	 {
+
+	public static void main(String[] args) {
+
+		 float dolares;
+		 double factoreuro = 0.92076792;
+		 double euros;
+		 System.out.println("CONVIERTE DE Dolares a Euros");
+		 System.out.print("Ingresar dolares ($): ");
+		 Scanner scanner = new Scanner(System.in);
+		 dolares = scanner.nextFloat();
+		 euros = dolares*factoreuro;
+
+		 System.out.println("=> " + euros + " Euros"); 
+		}
+	}
